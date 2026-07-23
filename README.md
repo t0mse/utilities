@@ -1,11 +1,12 @@
 # utilities
 ![Java](https://img.shields.io/badge/Java-25-orange?logo=openjdk)
 ![Gradle](https://img.shields.io/badge/Gradle-9.2.0-02303A?logo=gradle)
-![Version](https://img.shields.io/badge/Version-1.1.0-blue)
+![Version](https://jitpack.io/v/t0mse/utilities.svg)
 ![License](https://img.shields.io/badge/License-MIT-green)
 ## Introduction
 This library contains some helpful utilities for asynchronous tasks, char/number randomization and date/time formatting.
 ## Implementation
+### Gradle
 ```kotlin
 repositories {
     maven("https://jitpack.io")
@@ -14,6 +15,21 @@ repositories {
 dependencies {
     implementation("com.github.t0mse:utilities:1.1.0")
 }
+```
+### Maven
+```xml
+<repositories>
+    <repository>
+        <id>jitpack.io</id>
+        <url>https://jitpack.io</url>
+    </repository>
+</repositories>
+
+<dependency>
+    <groupId>com.github.t0mse</groupId>
+    <artifactId>utilities</artifactId>
+    <version>1.1.0</version>
+</dependency>
 ```
 ## Functionalities
 ### 1. Countdown
