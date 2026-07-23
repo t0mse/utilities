@@ -1,8 +1,8 @@
 # utilities
-![Java](https://img.shields.io/badge/Java-25-orange?logo=openjdk)
-![Gradle](https://img.shields.io/badge/Gradle-9.2.0-02303A?logo=gradle)
-![Version](https://jitpack.io/v/t0mse/utilities.svg)
-![License](https://img.shields.io/badge/License-MIT-green)
+[![Java](https://img.shields.io/badge/Java-25-orange?logo=openjdk)](https://www.oracle.com/java/)
+[![Gradle](https://img.shields.io/badge/Gradle-9.2.0-02303A?logo=gradle)](https://gradle.org/)
+[![Version](https://jitpack.io/v/t0mse/utilities.svg)](https://jitpack.io/#t0mse/utilities)
+[![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
 ## Introduction
 This library contains some helpful utilities for asynchronous tasks, char/number randomization and date/time formatting.
 ## Implementation
@@ -36,7 +36,7 @@ dependencies {
 A simple asynchronous countdown that counts down the specified ticks in the specified time unit and automatically stops 
 when hitting (works with `Scheduler`)
 <br>
-<br>Located at: [de.tomse.misc.utilities.async.Countdown](https://github.com/t0mse/utilities/blob/master/src/main/java/de/tomse/misc/utilities/async/Countdown.java)
+<br>Located at: [de.tomse.misc.utilities.async.Countdown](src/main/java/de/tomse/misc/utilities/async/Countdown.java)
 #### Code Samples
 
 <details>
@@ -75,7 +75,7 @@ countdown.stop();
 ### 2. Scheduler
 A builder and holder class to set up, store and manage ScheduledExecutorServices
 <br>
-<br>Located at: [de.tomse.misc.utilities.async.Scheduler](https://github.com/t0mse/utilities/blob/master/src/main/java/de/tomse/misc/utilities/async/Scheduler.java)
+<br>Located at: [de.tomse.misc.utilities.async.Scheduler](src/main/java/de/tomse/misc/utilities/async/Scheduler.java)
 #### Code Samples
 
 <details>
@@ -117,7 +117,7 @@ scheduler.shutdown();
 A builder class designed to format a given millisecond timestamp to a readable string with the formatted date timestamp 
 in a specific date format.
 <br>
-<br>Located at: [de.tomse.misc.utilities.formatter.DateFormatter](https://github.com/t0mse/utilities/blob/master/src/main/java/de/tomse/misc/utilities/formatter/date/DateFormatter.java)
+<br>Located at: [de.tomse.misc.utilities.formatter.DateFormatter](src/main/java/de/tomse/misc/utilities/formatter/date/DateFormatter.java)
 #### Date Format Presets
 
 <details>
@@ -190,7 +190,7 @@ String formattedDate = dateFormatter.format();
 ### 4. Time Formatter
 A builder class designed to format a given millisecond time value to a readable string with the formatted timestamp.
 <br>
-<br>Located at: [de.tomse.misc.utilities.formatter.TimeFormatter](https://github.com/t0mse/utilities/blob/master/src/main/java/de/tomse/misc/utilities/formatter/time/TimeFormatter.java)
+<br>Located at: [de.tomse.misc.utilities.formatter.TimeFormatter](src/main/java/de/tomse/misc/utilities/formatter/time/TimeFormatter.java)
 #### Code samples
 
 <details>
@@ -216,7 +216,7 @@ new TimeFormatter(timeMillis)
 ### 5. Char Randomizer
 A builder class designed to generate/draw a random string outcome of a specified `CharSet` and length.
 <br>
-<br>Located at: [de.tomse.misc.utilities.randomizer.ChatRandomizer](https://github.com/t0mse/utilities/blob/master/src/main/java/de/tomse/misc/utilities/randomizer/impl/CharRandomizer.java)
+<br>Located at: [de.tomse.misc.utilities.randomizer.ChatRandomizer](src/main/java/de/tomse/misc/utilities/randomizer/impl/CharRandomizer.java)
 #### CharSets
 
 <details>
@@ -250,7 +250,7 @@ String numeric = new CharRandomizer(CharRandomizer.CharSet.NUMERIC, 8).draw();
 A builder class designed to generate/draw a random number between a specified range.
 <br>
 <br>Located
-at: [de.tomse.misc.utilities.randomizer.NumberRandomizer](https://github.com/t0mse/utilities/blob/master/src/main/java/de/tomse/misc/utilities/randomizer/impl/NumberRandomizer.java)
+at: [de.tomse.misc.utilities.randomizer.NumberRandomizer](src/main/java/de/tomse/misc/utilities/randomizer/impl/NumberRandomizer.java)
 #### Code samples
 
 <details>
