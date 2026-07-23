@@ -4,6 +4,16 @@
 ![Version](https://img.shields.io/badge/Version-1.0.0-blue)
 ## Introduction
 This library contains some helpful utilities for asynchronous tasks, char/number randomization and date/time formatting.
+## Implementation
+```kotlin
+repositories {
+    maven("https://jitpack.io")
+}
+
+dependencies {
+    implementation("com.github.t0mse:utilities:1.0.0")
+}
+```
 ## Functionalities
 ### 1. Countdown
 A simple asynchronous countdown that counts down the specified ticks in the specified time unit and stops when hitting 0. (Also works with `Scheduler`)
