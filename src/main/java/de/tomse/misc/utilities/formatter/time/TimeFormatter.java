@@ -13,13 +13,11 @@ import java.util.concurrent.TimeUnit;
 @RequiredArgsConstructor
 @AllArgsConstructor
 public final class TimeFormatter extends Formatter<String> {
-    public static final TimeZone FALLBACK_TIME_ZONE;
     private static final NumberFormat fallbackNumberFormat;
     private static final List<TimeUnit> timeUnits;
     private static final String fallbackFormatSeparator;
 
     static {
-        FALLBACK_TIME_ZONE = TimeZone.getTimeZone("Europe/Berlin");
         fallbackNumberFormat = NumberFormat.getIntegerInstance(Locale.US);
         timeUnits = new ArrayList<>(Arrays.asList(TimeUnit.values()));
         Collections.reverse(timeUnits);
