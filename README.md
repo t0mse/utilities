@@ -13,7 +13,7 @@ repositories {
 }
 
 dependencies {
-    implementation("com.github.t0mse:utilities:1.1.1")
+    implementation("com.github.t0mse:utilities:1.1.2")
 }
 ```
 ### Maven
@@ -28,7 +28,7 @@ dependencies {
 <dependency>
     <groupId>com.github.t0mse</groupId>
     <artifactId>utilities</artifactId>
-    <version>1.1.0</version>
+    <version>1.1.2</version>
 </dependency>
 ```
 ## Functionalities
