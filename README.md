@@ -13,7 +13,7 @@ repositories {
 }
 
 dependencies {
-    implementation("com.github.t0mse:utilities:1.1.0")
+    implementation("com.github.t0mse:utilities:1.1.1")
 }
 ```
 ### Maven
